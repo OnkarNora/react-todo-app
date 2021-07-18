@@ -24,7 +24,7 @@ function Register ()
         let user = {name,email,password};
         console.log(user);
         // let user = JSON.stringify(user);
-        let result = await fetch("http://127.0.0.1:8000/api/register",{
+        let result = await fetch("https://laravel-todo-backend.herokuapp.com/api/register",{
             method:'POST',
             headers:{
                 "Content-Type":"application/json",

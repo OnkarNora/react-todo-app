@@ -29,7 +29,7 @@ function HomeUser() {
             user_id:user.id
         }
         
-        let result = await fetch("http://127.0.0.1:8000/api/todos/getTodos",{
+        let result = await fetch("https://laravel-todo-backend.herokuapp.com/api/todos/getTodos",{
             method:'POST',
             headers:{
                 "Content-Type":"application/json",
@@ -81,7 +81,7 @@ function HomeUser() {
         let d_todo = {
             d_id :todo.d_id
         }
-        let result = await fetch("http://127.0.0.1:8000/api/todos/deleteTodo",{
+        let result = await fetch("https://laravel-todo-backend.herokuapp.com/api/todos/deleteTodo",{
             method:'POST',
             headers:{
                 "Content-Type":"application/json",
@@ -104,7 +104,7 @@ function HomeUser() {
             Description: desc,
         }
         console.log('api todos : ',apiTodo)
-        let result = await fetch("http://127.0.0.1:8000/api/todos/insertTodos",{
+        let result = await fetch("https://laravel-todo-backend.herokuapp.com/api/todos/insertTodos",{
             method:'POST',
             headers:{
                 "Content-Type":"application/json",
