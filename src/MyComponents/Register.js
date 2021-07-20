@@ -5,7 +5,7 @@ import Header from './Header';
 function Register ()
 {   
     let myStyle = {
-        minHeight: "82vh"
+        minHeight: "90vh"
     }
 
     useEffect(()=>{

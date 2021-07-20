@@ -10,7 +10,7 @@ export const Login = () => {
         }
     },[])
     let myStyle = {
-        minHeight: "82vh"
+        minHeight: "90vh"
     }
     const [email,setEmail] = useState("");
     const [password,setPassword] = useState("");
