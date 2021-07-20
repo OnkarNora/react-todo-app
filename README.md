@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+# Todo Application 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a Todo Application Developed in React including Features like Register,Login,Add Todo,Delete Todo.
+The Backend is developed in laravel php.
+Database used is MySql
+project is hosted on heroku you can take a look [Here](https://onkar-react-todo.herokuapp.com/).
 
 ## Available Scripts
 
