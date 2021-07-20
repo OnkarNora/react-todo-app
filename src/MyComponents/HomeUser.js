@@ -94,6 +94,7 @@ function HomeUser() {
     }
 
     const addTodo = (title, desc) => {
+        setTodos([...todos,{title:title,desc:desc}])
         addTodoToApi(title,desc);
     }
     
